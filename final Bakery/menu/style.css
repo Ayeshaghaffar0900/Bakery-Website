@@ -1,0 +1,209 @@
+body{
+    background-color: rgba(165, 248, 220, 0.534);
+
+}    
+    
+    
+    
+    /* navbar-start */
+
+.fixed-top {
+  margin-top: 0;
+}
+.scrolled-nav {
+  background-color: rgba(212, 121, 121, 0.788);
+  color: red;
+  box-shadow: 0 3px 10px rgba(255, 0, 0, 0.15);
+  /* color: black; */
+  transition: all 0.9s;
+  height: auto;
+}
+.scrolled-nav a {
+  color: whitesmoke;
+}
+
+.scrolled-nav a:hover {
+  color: red;
+}
+.navbar-brand {
+  height: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.navbar-nav {
+  margin-right: 40%;
+}
+.nav-link {
+  color: red;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.nav-link:hover {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+                                                           /* navbar-end */
+                                                    /* carousel-start */
+
+.carousel-item img {
+  height: 650px;
+  /* height: 90vh; */
+}
+
+.carousel-caption h3 {
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /* margin-top: 80%; */
+  color: red;
+  text-shadow: 2px 1px white;
+  /* z-index: 1; */
+}
+.carousel-caption {
+  /* bottom: 400px; */
+  z-index: 1;
+  top: 45%;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 16px;
+  color: whitesmoke;
+  text-shadow: 2px 1px red;
+}
+.carousel-item:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel-item img {
+    height: 450px;
+  }
+
+  .carousel-caption {
+    bottom: 320px;
+  }
+  .carousel-caption h3 {
+    font-size: 25px;
+  }
+  .carousel-caption p {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+                                                                        /* carousel-end */
+/* .section-pad{
+    padding: 20px ;
+}
+
+.card-heading{
+    font-style: italic;
+    color: burlywood;
+    font-size: 60px;
+    background-image: url(../images/kitkat.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px dotted brown;
+
+}
+
+.card img{
+    height: 280px;
+} */
+
+/* Padding for the sections */
+
+
+
+
+/* Padding for the sections */
+.section-pad {
+    padding: 40px 20px; 
+}
+
+/* Heading style for cakes section */
+.cakes-heading {
+    font-style: italic;
+    color: #fff;
+    font-size: 3.5rem; /* Larger heading for emphasis */
+    background-color: #8B4513; /* A rich brown color for bakery feel */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Shadow for better readability */
+    text-align: center;
+}
+
+/* Card image styling */
+.card img {
+    height: 250px; /* Reduced height for a better fit */
+    object-fit: cover;
+    border-radius: 10px; /* Rounded corners for the image */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Card body content styling */
+.card-body {
+    background-color: #f9f9f9; /* Light grey background for card body */
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+    padding: 20px;
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+    text-align: center; /* Centered text */
+}
+
+/* Hover effect for cards */
+.card:hover {
+    transform: translateY(-10px); /* Raised effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Light shadow for card */
+}
+
+/* Card text for improved readability */
+.card-text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Card general styling */
+.card {
+    margin: 15px;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    border: 1px solid #ddd; /* Light border for the card */
+    border-radius: 10px; /* Rounded corners for the card */
+    background-color: #fff;
+}
+
+/* Responsive card grid layout */
+@media (max-width: 767px) {
+    .section-pad {
+        padding: 20px 10px; 
+    }
+
+    .card {
+        width: 100% !important; /* Full width on smaller screens */
+    }
+
+    .cakes-heading {
+        font-size: 2.5rem; /* Slightly smaller font on mobile */
+    }
+}
+
+/* Section container for flex display */
+.d-flex {
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
